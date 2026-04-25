@@ -16,9 +16,10 @@ Want to see it in action? Check it out live on GitHub Pages:
 1. Clone this repo:
    ```bash
    git clone [https://github.com/AJ-016/retro-bat-shadow-art.git](https://github.com/AJ-016/retro-bat-shadow-art.git)
-   Open index.html in any modern browser.
 
-Watch the pixels fly!
+2. Open index.html in any modern browser.
+
+3. Watch the pixels fly!
 
 ## 📜 License
 This project is licensed under the MIT License.
