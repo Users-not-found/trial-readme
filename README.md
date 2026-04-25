@@ -1,16 +1,29 @@
-# Retro Bat Shadow Art 🦇
+# 🦇 Retro Bat Shadow Art
 
-A pure CSS/HTML exploration of high-fidelity pixel art animation. This project demonstrates how to render complex 8-bit graphics using a single HTML element and the CSS `box-shadow` property.
+A hauntingly lightweight, **8-bit pixel bat animation** created entirely with CSS `box-shadow` magic. No images, no SVG, just pure, unadulterated code.
 
-## 🛠️ Technical Overview
-- **Zero Images:** The entire graphic is generated via CSS coordinates.
-- **Efficient Rendering:** Uses CSS keyframes to swap shadow states for a smooth wing-flap animation.
-- **Step-based Animation:** Uses `steps(1)` in the animation timing function to maintain the "retro" pixel-flip aesthetic.
+![License](https://img.shields.io/github/license/AJ-016/retro-bat-shadow-art?style=flat-square)
+![Pure CSS](https://img.shields.io/badge/Made%20with-Pure%20CSS-ff69b4?style=flat-square)
 
-## 📜 Attribution & Credits
-- **Original Concept:** Found via public web archives attributed to `@thecodetutor`.
-- **Note:** The original source link is no longer active; this repository serves as a preservation and fix of this CSS technique.
-- **Curated & Fixed By:** [Alwin KJ](https://github.com/AJ-016)
+## ✨ The Magic
+This project demonstrates the power of CSS animations. The entire bat is rendered within a single `<div>` using thousands of pixels defined via `box-shadow` properties. It’s basically a digital painting made of shadows.
 
-## ⚖️ License
-This project is open-source and available under the [MIT License](LICENSE).
+## 🚀 Live Demo
+Want to see it in action? Check it out live on GitHub Pages:
+**[(https://aj-016.github.io/retro-bat-shadow-art/)]**
+
+## 🛠️ How to Use
+1. Clone this repo:
+   ```bash
+   git clone [https://github.com/AJ-016/retro-bat-shadow-art.git](https://github.com/AJ-016/retro-bat-shadow-art.git)
+   Open index.html in any modern browser.
+
+Watch the pixels fly!
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 🕵️ Credits & Disclaimer
+I found this masterpiece lurking in the shadows of the internet (online). While the original architect remains a mystery, I've preserved it here for the world to admire.
+
+If you are the original creator of this CSS art, please reach out! I'd love to give you the proper shout-out you deserve.
