@@ -1,5 +1,3 @@
-
-```markdown
 # ✨ Sticker Studio Pro ✨
 
 > **Your 100% offline, privacy-first, meme-making powerhouse.**
