@@ -20,16 +20,18 @@ See the bat in flight here:
 ## 🛠️ Installation
 If you want to play with the pixels locally:
 
+
+### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/AJ-016/retro-bat-shadow-art.git
-
-# Navigate into the folder
-cd retro-bat-shadow-art
-
-# Launch index.html
-# (Just double-click the file in your folder!)
 ```
+### Navigate into the folder
+```bash
+cd retro-bat-shadow-art
+```
+### Launch index.html
+# (Just double-click the file in your folder!)
+
 ## 📜 License
 This project is distributed under the MIT License.
 
