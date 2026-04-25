@@ -28,7 +28,7 @@ git clone https://github.com/AJ-016/retro-bat-shadow-art.git
 ```bash
 cd retro-bat-shadow-art
 ```
-3. Launch the project
+3. Launch the project<br>
 Open index.html in your favorite browser.
 
 ## 📜 License
