@@ -90,6 +90,3 @@ Work faster with these built-in hotkeys:
 ---
 
 *Built with local-first passion. Happy Sticker Making! 🎨🐶🔥*
-```
-
-This layout breaks everything down into easily digestible sections, explains *why* the setup steps are happening, and makes your app look like a seriously impressive piece of software. Let me know what you think!
