@@ -17,8 +17,6 @@ This project is a deep dive into the "CSS Art" world. The entire bat is rendered
 See the bat in flight here:
 👉 **[https://AJ-016.github.io/retro-bat-shadow-art/](https://AJ-016.github.io/retro-bat-shadow-art/)**
 
-*(Note: If the link shows a 404, make sure GitHub Pages is enabled in your repo Settings > Pages > Branch: main).*
-
 ## 🛠️ Installation
 If you want to play with the pixels locally:
 
