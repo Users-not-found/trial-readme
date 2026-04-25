@@ -2,9 +2,6 @@
 
 A hauntingly lightweight, **8-bit pixel bat animation** created entirely with CSS `box-shadow` magic. No images, no SVG, just pure, unadulterated code.
 
-![License](https://img.shields.io/github/license/AJ-016/retro-bat-shadow-art?style=flat-square)
-![Pure CSS](https://img.shields.io/badge/Made%20with-Pure%20CSS-ff69b4?style=flat-square)
-
 ## ✨ The Magic
 This project demonstrates the power of CSS animations. The entire bat is rendered within a single `<div>` using thousands of pixels defined via `box-shadow` properties. It’s basically a digital painting made of shadows.
 
