@@ -28,7 +28,7 @@ git clone https://github.com/AJ-016/retro-bat-shadow-art.git
 ```bash
 cd retro-bat-shadow-art
 ```
-3. Launch index.html
+3. Launch index.html<br>
 (Just double-click the file in your folder!)
 
 ## 📜 License
