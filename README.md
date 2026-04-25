@@ -10,7 +10,7 @@ This project demonstrates the power of CSS animations. The entire bat is rendere
 
 ## 🚀 Live Demo
 Want to see it in action? Check it out live on GitHub Pages:
-**[(https://aj-016.github.io/retro-bat-shadow-art/)]**
+**(https://aj-016.github.io/retro-bat-shadow-art/)**
 
 ## 🛠️ How to Use
 1. Clone this repo:
