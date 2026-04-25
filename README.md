@@ -22,7 +22,7 @@ See the bat in flight here:
 ## 🛠️ Installation
 If you want to play with the pixels locally:
 
-
+```bash
 # Clone the repository
 git clone [https://github.com/AJ-016/retro-bat-shadow-art.git](https://github.com/AJ-016/retro-bat-shadow-art.git)
 
@@ -31,19 +31,11 @@ cd retro-bat-shadow-art
 
 # Launch index.html
 # (Just double-click the file in your folder!)
-📜 License
+```
+## 📜 License
 This project is distributed under the MIT License.
 
-🕵️ Discovery & Credits
+## 🕵️ Discovery & Credits
 I discovered this pixel masterpiece in the digital wilderness. While the original author is unknown, the code contained a reference to @thecodetutor. I've preserved and hosted it here to showcase the impressive potential of CSS animation.
 
 Are you the original creator? Please open an issue or reach out so I can credit your incredible work properly!
-
-
----
-
-### How to make that Live Link work:
-1.  Go to [https://github.com/AJ-016/retro-bat-shadow-art/settings/pages](https://github.com/AJ-016/retro-bat-shadow-art/settings/pages).
-2.  Under **Branch**, click the dropdown that says "None" and select **main**.
-3.  Click **Save**.
-4.  Wait about 30 seconds, and your bat will be live at that link!
