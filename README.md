@@ -1,40 +1,37 @@
-# 🦇 Retro Bat Shadow Art
+# 🦇 Shadow Wing Customizer
 
-A hauntingly lightweight, **8-bit pixel bat animation** rendered entirely through the sorcery of CSS `box-shadow`. No image files, no SVGs—just pure coordinates and colors.
+A high-performance interactive 8-bit animation engine. This project leverages the complexity of thousands of CSS `box-shadow` offsets to render a dynamic flying bat, controlled by a real-time Vanilla JavaScript theme engine.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Pure CSS](https://img.shields.io/badge/Made%20with-Pure%20CSS-ff69b4)
-![Status](https://img.shields.io/badge/Status-Flying-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)
+![CSS Art](https://img.shields.io/badge/Art-Pure%20CSS-ff69b4?style=flat-square)
+![Logic](https://img.shields.io/badge/Logic-Vanilla%20JS-yellow?style=flat-square)
 
-## ✨ The Magic
-This project is a deep dive into the "CSS Art" world. The entire bat is rendered inside a single empty `<div>` by manipulating thousands of shadow offsets. 
+## 🧪 The Customization Engine
+This lab transforms a static CSS masterpiece into a living playground. By utilizing CSS Custom Properties (`:root`), users can perform real-time aesthetic surgery on the flight model.
 
-* **Zero Images:** 100% code-based.
-* **Minimalist:** Extremely low footprint.
-* **Retro Vibes:** Classic 8-bit aesthetic.
+### 🎮 Features
+* **Full Spectrum Control:** Dedicated hex pickers for Wings, Body, Eyes, and the Background.
+* **Instant Presets:** Toggle between *Classic*, *Golden Vampire*, and *Cyber Neon* modes.
+* **Adaptive UX:** The control interface intelligently detects background brightness to maintain contrast and visibility.
+* **Streamlined Interaction:** Zero interference—text selection and cursor blinkers have been disabled for a pure visual experience.
+* **Lightweight Architecture:** No external assets, zero image files, and no heavy dependencies.
 
 ## 🚀 Live Demo
-See the bat in flight here:
-👉 **[https://aj-016.github.io/retro-bat-shadow-art/](https://aj-016.github.io/retro-bat-shadow-art/)**
+Experience the customizer live here:
+👉 **[https://aj-016.github.io/shadow-wing-customizer/](https://aj-016.github.io/shadow-wing-customizer/)**
 
-## 🛠️ Installation
-If you want to play with the pixels locally:
+## 🛠️ Tech Stack
+* **HTML5**
+* **CSS3** (Variables, Keyframe Animations, Box-Shadow rendering)
+* **Vanilla JavaScript** (DOM state management)
 
-1. Clone the repository
-```bash
-git clone https://github.com/AJ-016/retro-bat-shadow-art.git
-```
-2. Navigate into the folder
-```bash
-cd retro-bat-shadow-art
-```
-3. Launch the project<br>
-Open index.html in your favorite browser.
+## 📜 Credits & Attribution
+The foundational pixel coordinates for this animation were discovered in the open-source wilderness (originally attributed to `@thecodetutor`).
 
-## 📜 License
-This project is distributed under the MIT License.
+I have refactored and extended the work to:
+1. **Implement** a CSS Variable-based color system.
+2. **Develop** an interactive JavaScript controller.
+3. **Optimize** the UI for a modern, seamless user experience.
 
-## 🕵️ Discovery & Credits
-I discovered this pixel masterpiece in the digital wilderness. While the original author is unknown, the code contained a reference to @thecodetutor. I've preserved and hosted it here to showcase the impressive potential of CSS animation.
-
-Are you the original creator? Please open an issue or reach out so I can credit your incredible work properly!
+## ⚖️ License
+Distributed under the **MIT License**.
