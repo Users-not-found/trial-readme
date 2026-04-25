@@ -22,7 +22,7 @@ If you want to play with the pixels locally:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/AJ-016/retro-bat-shadow-art.git](https://github.com/AJ-016/retro-bat-shadow-art.git)
+git clone https://github.com/AJ-016/retro-bat-shadow-art.git
 
 # Navigate into the folder
 cd retro-bat-shadow-art
