@@ -1,37 +1,40 @@
-# 🦇 Shadow Wing Customizer
+# Pixaro ✂️
 
-A high-performance interactive 8-bit animation engine. This project leverages the complexity of thousands of CSS `box-shadow` offsets to render a dynamic flying bat, controlled by a real-time Vanilla JavaScript theme engine.
+Pixaro is a lightweight, web-based tool designed for smart background removal and sticker creation. It leverages AI directly in the browser to detect subjects and provides a suite of editing tools to customize your images.
 
-![License](https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square)
-![CSS Art](https://img.shields.io/badge/Art-Pure%20CSS-ff69b4?style=flat-square)
-![Logic](https://img.shields.io/badge/Logic-Vanilla%20JS-yellow?style=flat-square)
+## ✨ Features
 
-## 🧪 The Customization Engine
-This lab transforms a static CSS masterpiece into a living playground. By utilizing CSS Custom Properties (`:root`), users can perform real-time aesthetic surgery on the flight model.
+* **Smart Background Removal**: Powered by the `u2netp` model via ONNX Runtime Web for fast, local inference.
+* **Sticker Tools**: Easily reposition, align, and scale detected subjects.
+* **Text & Customization**: Add stylized text with various fonts, draw with a brush, or clean up edges with an eraser.
+* **Canvas Controls**: Support for panning, zooming, and undo/redo functionality.
+* **Export**: Save your creations directly as `.webp` files.
 
-### 🎮 Features
-* **Full Spectrum Control:** Dedicated hex pickers for Wings, Body, Eyes, and the Background.
-* **Instant Presets:** Toggle between *Classic*, *Golden Vampire*, and *Cyber Neon* modes.
-* **Adaptive UX:** The control interface intelligently detects background brightness to maintain contrast and visibility.
-* **Streamlined Interaction:** Zero interference—text selection and cursor blinkers have been disabled for a pure visual experience.
-* **Lightweight Architecture:** No external assets, zero image files, and no heavy dependencies.
+## 🛠️ Technical Stack
 
-## 🚀 Live Demo
-Experience the customizer live here:
-👉 **[https://aj-016.github.io/shadow-wing-customizer/](https://aj-016.github.io/shadow-wing-customizer/)**
+* **Engine**: ONNX Runtime Web (WASM backend)
+* **AI Model**: U2NetP (Universal Background Removal)
+* **Frontend**: Vanilla JavaScript, HTML5 Canvas, CSS3
+* **Security**: Includes `coi-serviceworker` to enable cross-origin isolation for high-performance multithreading.
 
-## 🛠️ Tech Stack
-* **HTML5**
-* **CSS3** (Variables, Keyframe Animations, Box-Shadow rendering)
-* **Vanilla JavaScript** (DOM state management)
+## 🚀 Getting Started
 
-## 📜 Credits & Attribution
-The foundational pixel coordinates for this animation were discovered in the open-source wilderness (originally attributed to `@thecodetutor`).
+1.  **Clone or Unzip**: Extract the project files to your local directory.
+2.  **Web Server**: Due to the use of Service Workers and WASM, the project must be served via a local web server (e.g., Live Server in VS Code or `python -m http.server`).
+3.  **Open**: Navigate to `index.html` in your browser.
 
-I have refactored and extended the work to:
-1. **Implement** a CSS Variable-based color system.
-2. **Develop** an interactive JavaScript controller.
-3. **Optimize** the UI for a modern, seamless user experience.
+### Usage
+* Click **Open Image** to upload a photo.
+* Use the **Scan Subject** tool to preview boundaries.
+* Use the **Align** tool to snap the sticker to the center or edges.
+* Add text and decorations before hitting **Export**.
 
-## ⚖️ License
-Distributed under the **MIT License**.
+## ⌨️ Shortcuts
+
+| Shortcut | Action |
+| :--- | :--- |
+| **Space + Drag** | Pan the canvas |
+| **Scroll Wheel** | Zoom in/out at the cursor position |
+| **Ctrl + Z / Y** | Undo and Redo actions |
+| **ESC** | Unselect tools or close modals |
+| **DEL / Backspace** | Remove selected text elements |
