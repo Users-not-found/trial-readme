@@ -3,7 +3,7 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Macondo&size=24&pause=250&color=2F81F7&center=true&vCenter=true&width=600&height=75&lines=Hey%2C+I'm+Alwin!+%F0%9F%91%8B;BTech+CS+student+running+on+10%25+battery;Former+multimedia+designer+turned+terminal+resident;Building+local-first+apps+that+respect+privacy;Exploring+AI%2C+security+and+everything+cool;Professional+over-thinker+%F0%9F%A7%A0)
 	
 </div>
-
+```
 👾 `> whoami`
 text
 ┌──(aj-016㉿404-brain-not-found)-[~]
@@ -31,7 +31,7 @@ text
   ```
 
 🧠 currently.exe
-text
+```
 > learning     : AI + security
 > building     : local AI assistant
 > exploring    : self-hosted systems
@@ -39,6 +39,7 @@ text
 
 ---
 🛠️ Tech Stack
+
 <div align="center">
 💻 Core Languages
 <img src="https://skillicons.dev/icons?i=python,java,c,js&theme=dark&perline=4" />
