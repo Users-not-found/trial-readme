@@ -1,9 +1,11 @@
 <div align="center">
+	
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Macondo&size=24&pause=250&color=2F81F7&center=true&vCenter=true&width=600&height=75&lines=Hey%2C+I'm+Alwin!+%F0%9F%91%8B;BTech+CS+student+running+on+10%25+battery;Former+multimedia+designer+turned+terminal+resident;Building+local-first+apps+that+respect+privacy;Exploring+AI%2C+security+and+everything+cool;Professional+over-thinker+%F0%9F%A7%A0)
+	
 </div>
----
+
 👾 `> whoami`
-```text
+text
 ┌──(aj-016㉿404-brain-not-found)-[~]
 └─$ ./whoami.sh
 
@@ -26,15 +28,15 @@
   alt-mode    : bug-factory 🏭
   skillset    : google-driven development
   output      : working code > perfect code
-```
----
+  ```
+
 🧠 currently.exe
-```text
+text
 > learning     : AI + security
 > building     : local AI assistant
 > exploring    : self-hosted systems
 > mood         : somewhere between focused and lost 🤨
-```
+
 ---
 🛠️ Tech Stack
 <div align="center">
