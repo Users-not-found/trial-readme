@@ -49,9 +49,8 @@
 ### 🛠️ Tech Stack
 
 <div align="center">
-  
-[  <img src="https://skillicons.dev/icons?i=js,html,css,python,java,c,figma,git,github,vscode,linux,bash&theme=dark&perline=6" />
-](https://skills.syvixor.com/api/icons?perline=7&i=html,css3,javascript,c,java,python,visualstudiocode,adobeaftereffects,adobeillustrator,adobeindesign,adobelightroom,adobephotoshop,adobepremierepro,adobexd,git,github,figma,blender,linux,unrealengine,canva)
+
+  https://skills.syvixor.com/api/icons?perline=7&i=html,css3,javascript,c,java,python,visualstudiocode,adobeaftereffects,adobeillustrator,adobeindesign,adobelightroom,adobephotoshop,adobepremierepro,adobexd,git,github,figma,blender,linux,unrealengine,canva
 
 </div>
 
