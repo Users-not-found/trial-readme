@@ -1,29 +1,42 @@
-# Judicial Entropy (v1.0.0)
+# 🕹️ Slink-Console
 
-[![Engine: Transformers.js](https://img.shields.io/badge/Engine-Transformers.js-blueviolet)](https://github.com/xenova/transformers.js)
+A high-fidelity retro snake engine built with vanilla JavaScript and HTML5 Canvas. **Slink-Console** features a custom-designed handheld UI and is optimized for zero-latency play on both desktop and mobile devices.
 
-## Executive Overview
-**Judicial Entropy** is a vertically integrated, local-first authentication-validation middleware designed to disrupt the legacy "Utility-Based Web Paradigm." 
+### 🔗 [Live Demo](https://YOUR_USERNAME.github.io/Slink-Console/)
 
-By moving beyond binary pass/fail logic, this engine leverages **Heuristic-Based Metadata Masking** and a local transformer-based **Emotional Response Layer** to provide real-time, zero-knowledge feedback on user-side entropy.
+---
 
-## Key Technical Specifications
-*   **Privacy Hardened:** Utilizes structural metadata injection. The raw input string never interfaces with the inference engine.
-*   **Edge Intelligence:** Powered by a quantized `LaMini-Flan-T5` model running entirely in the browser's volatile memory.
-*   **Synergistic UI:** Implements "Abrasive Design Patterns" to reduce digital complacency through negative reinforcement.
-*   **Zero-Footprint:** 100% Client-side execution. No telemetry, no logs, no mercy.
+## ✨ Features
+* **Adaptive Viewport**: Automatically switches between an "Arcade Cabinet" desktop view and a "Handheld Console" mobile view.
+* **Zero-Lag Touch Logic**: Uses a custom-built continuous slide sensor that resets anchors on every turn, allowing for fluid movement without lifting your finger.
+* **Input Queueing**: A movement buffer that processes rapid "L-turn" inputs, preventing 180-degree self-collisions and missed turns.
+* **Aesthetic Customization**: Includes a "Set-Up" menu to toggle background colors and snake variants like Charcoal, Gold, and Neon Blue.
+* **Visual Realism**: Optimized sprite rendering with dynamic filters to provide a "Jam Red" fruit aesthetic.
 
-## Tech Stack
-- **Frontend:** Vanilla HTML5/CSS3 (Modernist-Minimalist aesthetic)
-- **Intelligence Layer:** Transformers.js (ONNX Runtime)
-- **Acceleration:** WebGPU/WebAssembly (WASM) 
-- **Hardware Profile:** Optimized for 16GB+ RAM and dedicated CUDA/Tensor cores.
+## 🛠️ Tech Stack
+* **Language**: Vanilla JavaScript (ES6+)
+* **Graphics**: HTML5 Canvas API
+* **Styling**: CSS3 (Media Queries, Flexbox, Glassmorphism)
+* **Performance**: Optimized for 60fps rendering with a dedicated input queue for responsive controls.
 
-## Installation
-1. Clone the repository.
-2. Serve via local server (e.g., `python -m http.server` or VS Code Live Server).
-3. Await neural handshake.
-4. Prepare for existential disappointment.
+## 🎮 How to Play
+### Desktop
+- **Movement**: Arrow Keys or `WASD`
+- **Pause**: `SPACE`
+- **Reset**: `R` key or the Reset button
 
-## Disclaimer
-*This project is provided as-is. We are not responsible for bruised egos or the realization that your security habits are equivalent to a wet paper towel.*
+### Mobile
+- **Movement**: Slide your finger anywhere on the screen in the direction you want to turn.
+- **D-Pad**: Use the physical-style cross buttons for precise navigation.
+- **Pause/Settings**: Use the dedicated circular console buttons.
+
+## 🚀 Deployment (GitHub Pages)
+1. Push your code to the `main` branch.
+2. Go to **Settings > Pages** in your GitHub repository.
+3. Select `main` branch as the source and click **Save**.
+4. Your console will be live at `https://<your-username>.github.io/Slink-Console/`.
+
+---
+
+## ⚖️ License
+Distributed under the MIT License. See `LICENSE` for more information.
