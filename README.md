@@ -24,7 +24,7 @@ MyLocalBot_Project/
 
 ```
 
-## ⚙️ 2. PREREQUISITES
+### ⚙️ 2. PREREQUISITES
 
 * Python 3.10 or higher installed on your system.
 * A Telegram account to generate API credentials.
@@ -32,15 +32,16 @@ MyLocalBot_Project/
 
 ---
 
-🛠️ 3. SETUP & INSTALLATION
+### 🛠️ 3. SETUP & INSTALLATION
 
 Step A: Virtual Environment (VENV) Setup
 
 Open your terminal (PowerShell or CMD) in the project folder and run:
 
  1. Create the environment:
-  ```python -m venv venv```
- 2. Activate it:
+    ```python -m venv venv```
+    
+ 3. Activate it:
   * Windows: ```.\venv\Scripts\activate```
   * Mac/Linux: ```source venv/bin/activate```
 
