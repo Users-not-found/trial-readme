@@ -67,16 +67,16 @@ DEST_CHAT=
 SOURCE_CHATS=
 ```
 
-*API_ID/HASH*: Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
-*DEST_CHAT*: The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }<br>
-*SOURCE_CHATS*: Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }<br>
+*API_ID/HASH* : Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
+*DEST_CHAT* : The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }<br>
+*SOURCE_CHATS* : Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }<br>
 
 ---
 
 🚀 5. RUNNING THE APP
 
- 1. Start the bot:`python main.py`
- 3. **First Run Only:** The terminal will ask for your Phone Number and the Code sent to your Telegram app.
+ 1. Start the bot : `python main.py`
+ 3. **First Run Only**: The terminal will ask for your Phone Number and the Code sent to your Telegram app.
  4. Once the terminal says `Application startup complete`, open your browser to:
   ```http://127.0.0.1:8000```
 
@@ -84,20 +84,20 @@ SOURCE_CHATS=
 
 🖥️ 6. DASHBOARD CONTROLS
 
-* Start/Stop Sync: Global toggle for the background engine.
-* Update Chat List: Rescans Telegram to find new groups/names.
-* Nickname Manager: Set custom names for IDs. Use "OG Name" to reset.
-* Load Older: Fetches 100 more lines from the log book.
-* Clear View: Hides current logs from the UI (does NOT delete the log file).
-* Click-to-Copy: Click any Group Name or ID to copy it to your clipboard.
+* *Start/Stop Sync*: Global toggle for the background engine.
+* *Update Chat List*: Rescans Telegram to find new groups/names.
+* *Nickname Manager*: Set custom names for IDs. Use "OG Name" to reset.
+* *Load Older*: Fetches 100 more lines from the log book.
+* *Clear View*: Hides current logs from the UI (does NOT delete the log file).
+* *Click-to-Copy*: Click any Group Name or ID to copy it to your clipboard.
 
 ---
 
 🆘 7. TROUBLESHOOTING
 
-* AuthKeyDuplicatedError: This happens if your IP changes or the session is used elsewhere. Delete `session_data/jarvis_user.session` and restart to log in fresh.
-* Missing Imports: Ensure you have selected the correct Python Interpreter in VS Code (Ctrl+Shift+P -> Select Interpreter -> venv).
-* UI Lag: If you have 100k+ logs, click "Clear View" to keep the browser responsive.
+* *AuthKeyDuplicatedError*: This happens if your IP changes or the session is used elsewhere. Delete `session_data/jarvis_user.session` and restart to log in fresh.
+* *Missing Imports*: Ensure you have selected the correct Python Interpreter in VS Code (Ctrl+Shift+P -> Select Interpreter -> venv).
+* *UI Lag*: If you have 100k+ logs, click "Clear View" to keep the browser responsive.
 
 ---
 
