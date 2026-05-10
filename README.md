@@ -65,7 +65,6 @@ API_ID=your_api_id_here
 API_HASH=your_api_hash_here
 DEST_CHAT=
 SOURCE_CHATS=
-
 ```
 
 API_ID/HASH: Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
