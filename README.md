@@ -4,8 +4,9 @@
 
 ---
 
-📂 1. PROJECT STRUCTURE
+### 📂 1. PROJECT STRUCTURE
 
+```
 MyLocalBot_Project/
 │
 ├── main.py                		# Core Logic, Sync Engine & Web Dashboard
@@ -21,9 +22,9 @@ MyLocalBot_Project/
     ├── paused_groups.json   		# State of paused/resumed groups
     └── forwarding_history.log 		# Full activity log (Main Log Book)
 
----
+```
 
-⚙️ 2. PREREQUISITES
+##⚙️ 2. PREREQUISITES
 
 * Python 3.10 or higher installed on your system.
 * A Telegram account to generate API credentials.
