@@ -8,12 +8,12 @@ Description: A local-first Telegram message synchronization tool with a web dash
 ```
 MyLocalBot_Project/
 │
-├── main.py                		# Core Logic, Sync Engine & Web Dashboard
-├── .env                   		# Configuration & API Credentials (HIDDEN FILE)
-├── requirements.txt       		# List of Python dependencies
-├── README.txt             		# This setup guide
+├── main.py                		    # Core Logic, Sync Engine & Web Dashboard
+├── .env                   		    # Configuration & API Credentials (HIDDEN FILE)
+├── requirements.txt       	        # List of Python dependencies
+├── README.txt             		    # This setup guide
 │
-└── session_data/          		# Persistence Folder (DO NOT DELETE CONTENT){will be automatically created on first setup}
+└── session_data/          		    # Persistence Folder (DO NOT DELETE CONTENT){will be automatically created on first setup}
     ├── jarvis_user.session 		# Telegram login session (Delete if IP changes)
     ├── web_labels.json     		# Custom nicknames/labels
     ├── bot_state.json      		# Last synced message IDs
@@ -67,7 +67,7 @@ DEST_CHAT=
 SOURCE_CHATS=
 ```
 
-*API_ID/HASH* : Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
+*API_ID/HASH* : <p>Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<p><br>
 *DEST_CHAT* : The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }<br>
 *SOURCE_CHATS* : Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }<br>
 
