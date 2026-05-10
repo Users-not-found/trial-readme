@@ -39,10 +39,10 @@ Step A: Virtual Environment (VENV) Setup
 Open your terminal (PowerShell or CMD) in the project folder and run:
 
  1. Create the environment:
-  `python -m venv venv`
+  ```python -m venv venv```
  2. Activate it:
-  * Windows: `.\venv\Scripts\activate`
-  * Mac/Linux: `source venv/bin/activate`
+  * Windows: ```.\venv\Scripts\activate```
+  * Mac/Linux: ```source venv/bin/activate```
 
 Step B: Dependency Installation
 
