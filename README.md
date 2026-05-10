@@ -43,9 +43,9 @@ Open your terminal (PowerShell or CMD) in the project folder and run:
     
  2. Activate it:
   * Windows:
-   ```
-   .\venv\Scripts\activate
-   ```
+    ```
+    .\venv\Scripts\activate
+    ```
   * Mac/Linux:
     ```
     source venv/bin/activate
