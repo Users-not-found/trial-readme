@@ -67,7 +67,7 @@ DEST_CHAT=
 SOURCE_CHATS=
 ```
 
-*API_ID/HASH* : <p>Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<p><br>
+*API_ID/HASH* : Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
 *DEST_CHAT* : The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }<br>
 *SOURCE_CHATS* : Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }<br>
 
