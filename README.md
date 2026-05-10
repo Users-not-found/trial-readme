@@ -73,7 +73,7 @@ SOURCE_CHATS=
 
 ---
 
-🚀 5. RUNNING THE APP
+### 🚀 5. RUNNING THE APP
 
  1. Start the bot : `python main.py`
  3. **First Run Only**: The terminal will ask for your Phone Number and the Code sent to your Telegram app.
@@ -82,7 +82,7 @@ SOURCE_CHATS=
 
 ---
 
-🖥️ 6. DASHBOARD CONTROLS
+### 🖥️ 6. DASHBOARD CONTROLS
 
 * *Start/Stop Sync*: Global toggle for the background engine.
 * *Update Chat List*: Rescans Telegram to find new groups/names.
@@ -93,7 +93,7 @@ SOURCE_CHATS=
 
 ---
 
-🆘 7. TROUBLESHOOTING
+### 🆘 7. TROUBLESHOOTING
 
 * *AuthKeyDuplicatedError*: This happens if your IP changes or the session is used elsewhere. Delete `session_data/jarvis_user.session` and restart to log in fresh.
 * *Missing Imports*: Ensure you have selected the correct Python Interpreter in VS Code (Ctrl+Shift+P -> Select Interpreter -> venv).
@@ -101,6 +101,6 @@ SOURCE_CHATS=
 
 ---
 
-📜 LICENSE
+### 📜 LICENSE
 
 Distributed under the MIT License. Created for local-first, privacy-focused message archiving.
