@@ -1,4 +1,4 @@
-# ***MyLocalBot Sync Engine***
+# MyLocalBot Sync Engine
 Description: A local-first Telegram message synchronization tool with a web dashboard, deep history integrity mapping, and nickname management.
 
 ---
