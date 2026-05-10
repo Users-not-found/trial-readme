@@ -47,14 +47,14 @@ Open your terminal (PowerShell or CMD) in the project folder and run:
     ```
       * Mac/Linux:
     ```
-        source venv/bin/activate
+    source venv/bin/activate
     ```
 Step B: Dependency Installation
 
 Once the `(venv)` tag appears in your terminal, run:
-```
-pip install -r requirements.txt
-```    
+    ```
+        pip install -r requirements.txt
+    ```    
 ---
 
 ### 🔑 4. .ENV CUSTOMIZATION
