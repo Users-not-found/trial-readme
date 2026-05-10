@@ -1,5 +1,5 @@
 # PROJECT NAME: MyLocalBot Sync Engine
- VERSION: 11.2 (Stable)
+ VERSION: 11.2 (Stable) <br>
  DESCRIPTION: A local-first Telegram message synchronization tool with a web dashboard, deep history integrity mapping, and nickname management.
 
 ---
