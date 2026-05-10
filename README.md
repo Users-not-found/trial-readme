@@ -43,13 +43,13 @@ Open your terminal (PowerShell or CMD) in the project folder and run:
     
  2. Activate it:
   * Windows:
-    ```
+    `
     .\venv\Scripts\activate
-    ```
+    `
   * Mac/Linux:
-    ```
+    `
     source venv/bin/activate
-    ```
+    `
 Step B: Dependency Installation
 
 Once the `(venv)` tag appears in your terminal, run:
