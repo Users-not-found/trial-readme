@@ -57,10 +57,10 @@ Once the `(venv)` tag appears in your terminal, run:
     
 ---
 
-🔑 4. .ENV CUSTOMIZATION
+### 🔑 4. .ENV CUSTOMIZATION
 
 Create a file named `.env` in the root folder and paste the following:
-
+```
 API_ID=your_api_id_here
 API_HASH=your_api_hash_here
 DEST_CHAT=
