@@ -24,7 +24,7 @@ MyLocalBot_Project/
 
 ```
 
-##⚙️ 2. PREREQUISITES
+## ⚙️ 2. PREREQUISITES
 
 * Python 3.10 or higher installed on your system.
 * A Telegram account to generate API credentials.
