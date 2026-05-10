@@ -48,7 +48,7 @@ Open your terminal (PowerShell or CMD) in the project folder and run:
    ```
   * Mac/Linux:
     ```
-        source venv/bin/activate
+    source venv/bin/activate
     ```
 Step B: Dependency Installation
 
