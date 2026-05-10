@@ -76,10 +76,10 @@ SOURCE_CHATS: Comma-separated list of IDs you want to sync FROM.{u can get this 
 🚀 5. RUNNING THE APP
 
  1. Start the bot:
-  `python main.py`
+  ```python main.py```
  2. **First Run Only:** The terminal will ask for your Phone Number and the Code sent to your Telegram app.
  3. Once the terminal says `Application startup complete`, open your browser to:
-  `http://127.0.0.1:8000`
+  ```http://127.0.0.1:8000```
 
 ---
 
