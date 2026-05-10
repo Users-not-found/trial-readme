@@ -1,4 +1,4 @@
-# PROJECT NAME: MyLocalBot Sync Engine
+# ***MyLocalBot Sync Engine***
 Description: A local-first Telegram message synchronization tool with a web dashboard, deep history integrity mapping, and nickname management.
 
 ---
@@ -67,9 +67,9 @@ DEST_CHAT=
 SOURCE_CHATS=
 ```
 
-API_ID/HASH: Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
-DEST_CHAT: The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }<br>
-SOURCE_CHATS: Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }<br>
+***API_ID/HASH***: Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".<br>
+***DEST_CHAT***: The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }<br>
+***SOURCE_CHATS***: Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }<br>
 
 ---
 
