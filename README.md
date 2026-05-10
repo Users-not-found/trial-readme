@@ -1,119 +1,101 @@
-🚀 TeleSync-Pro GitHub Setup
-Project Name: TeleSync-Pro
-Description: High-integrity Telegram synchronization engine with a real-time FastAPI dashboard and deep history mapping.
-
-📄 README.md
-Markdown
-# TeleSync-Pro v11.2
-
-TeleSync-Pro is a high-performance synchronization engine for Telegram, featuring a real-time web dashboard. It is engineered for 100% message integrity, using deep-mapping logic to ensure no data gaps during history backfills.
+PROJECT NAME: MyLocalBot Sync Engine
+VERSION: 11.2 (Stable)
+DESCRIPTION: A local-first Telegram message synchronization tool with a web dashboard, deep history integrity mapping, and nickname management.
 
 ---
 
-## 📂 1. PROJECT STRUCTURE
+📂 1. PROJECT STRUCTURE
 
-```text
-TeleSync-Pro/
+MyLocalBot_Project/
 │
-├── main.py                # Core Logic, Sync Engine & Web Dashboard
-├── .env                   # Configuration & API Credentials (LOCAL ONLY)
-├── requirements.txt       # Project dependencies
-├── README.md              # Project documentation
+├── main.py                		# Core Logic, Sync Engine & Web Dashboard
+├── .env                   		# Configuration & API Credentials (HIDDEN FILE)
+├── requirements.txt       		# List of Python dependencies
+├── README.txt             		# This setup guide
 │
-└── session_data/          # Persistence Folder (Auto-generated)
-    ├── jarvis_user.session # Telegram login session
-    ├── web_labels.json     # Custom nicknames
-    ├── bot_state.json      # Sync progress tracking
-    ├── integrity_map.json  # Data gap coverage map
-    ├── paused_groups.json  # State management
-    └── forwarding_history.log # Main Activity Log
+└── session_data/          		# Persistence Folder (DO NOT DELETE CONTENT){will be automatically created on first setup}
+    ├── jarvis_user.session 		# Telegram login session (Delete if IP changes)
+    ├── web_labels.json     		# Custom nicknames/labels
+    ├── bot_state.json      		# Last synced message IDs
+    ├── integrity_map.json  		# Sync gap tracking data
+    ├── paused_groups.json   		# State of paused/resumed groups
+    └── forwarding_history.log 		# Full activity log (Main Log Book)
+
+---
+
 ⚙️ 2. PREREQUISITES
-Python 3.10+
 
-Telegram API Credentials (my.telegram.org)
+* Python 3.10 or higher installed on your system.
+* A Telegram account to generate API credentials.
+* VS Code (Recommended) for local development.
 
-VS Code (Recommended)
+---
 
 🛠️ 3. SETUP & INSTALLATION
-Step A: Virtual Environment (VENV)
-Create the environment:
-python -m venv venv
 
-Activate it:
+Step A: Virtual Environment (VENV) Setup
 
-Windows: .\venv\Scripts\activate
+Open your terminal (PowerShell or CMD) in the project folder and run:
 
-Mac/Linux: source venv/bin/activate
+ 1. Create the environment:
+  `python -m venv venv`
+ 2. Activate it:
+  * Windows: `.\venv\Scripts\activate`
+  * Mac/Linux: `source venv/bin/activate`
 
 Step B: Dependency Installation
-Once (venv) is active, run:
-pip install -r requirements.txt
 
-🔑 4. .ENV CUSTOMIZATION
-Create a .env file in the root folder:
-
-Code snippet
-API_ID=your_api_id
-API_HASH=your_api_hash
-DEST_CHAT=
-SOURCE_CHATS=
-API_ID/HASH: Obtain from my.telegram.org.
-
-DEST_CHAT: ID of the destination group (obtainable via the dashboard).
-
-SOURCE_CHATS: Comma-separated list of source IDs (obtainable via the dashboard).
-
-🚀 5. RUNNING THE APP
-Start the Bot:
-python main.py
-
-Authentication: On the first run, enter your Phone Number and the Code sent to your Telegram app.
-
-Access Dashboard: Once startup is complete, open:
-http://127.0.0.1:8000
-
-🖥️ 6. DASHBOARD CONTROLS
-Start/Stop Sync: Global engine toggle.
-
-Update Chat List: Rescans Telegram for new groups and names.
-
-Nickname Manager: Set custom labels for Chat IDs.
-
-Load Older: Fetches 100 more entries from the log book.
-
-Clear View: Hides session logs for a cleaner workspace.
-
-Click-to-Copy: Click any Group Name or ID to copy to clipboard instantly.
-
-🆘 7. TROUBLESHOOTING
-AuthKeyDuplicatedError: Delete session_data/jarvis_user.session and re-authenticate.
-
-Missing Imports: Ensure VS Code is using the venv interpreter (Ctrl+Shift+P).
-
-UI Lag: For 100k+ logs, use Clear View to maintain responsiveness.
-
-📜 LICENSE
-Distributed under the MIT License.
-
+Once the `(venv)` tag appears in your terminal, run:
+  `pip install -r requirements.txt`
 
 ---
 
-### 🛡️ IMPORTANT: .gitignore
-To make sure you don't leak your private API keys or your Telegram session to the public on GitHub, you **must** include this file.
+🔑 4. .ENV CUSTOMIZATION
 
-Create a file named `.gitignore` and paste this:
+Create a file named `.env` in the root folder and paste the following:
 
-```text
-# Credentials
-.env
-*.session
-*.session-journal
+API_ID=your_api_id_here
+API_HASH=your_api_hash_here
+DEST_CHAT=
+SOURCE_CHATS=
 
-# Data & Logs
-session_data/
-forwarding_history.log
+```
 
-# System
-venv/
-__pycache__/
-.vscode/
+API_ID/HASH: Get these from [https://my.telegram.org](https://my.telegram.org) under "API Development Tools".
+DEST_CHAT: The ID of the group/channel where messages will be sent.{u can get this from the this app's website itself }
+SOURCE_CHATS: Comma-separated list of IDs you want to sync FROM.{u can get this from the this app's website itself }
+
+---
+
+🚀 5. RUNNING THE APP
+
+ 1. Start the bot:
+  `python main.py`
+ 2. **First Run Only:** The terminal will ask for your Phone Number and the Code sent to your Telegram app.
+ 3. Once the terminal says `Application startup complete`, open your browser to:
+  `http://127.0.0.1:8000`
+
+---
+
+🖥️ 6. DASHBOARD CONTROLS
+
+* Start/Stop Sync: Global toggle for the background engine.
+* Update Chat List: Rescans Telegram to find new groups/names.
+* Nickname Manager: Set custom names for IDs. Use "OG Name" to reset.
+* Load Older: Fetches 100 more lines from the log book.
+* Clear View: Hides current logs from the UI (does NOT delete the log file).
+* Click-to-Copy: Click any Group Name or ID to copy it to your clipboard.
+
+---
+
+🆘 7. TROUBLESHOOTING
+
+* AuthKeyDuplicatedError: This happens if your IP changes or the session is used elsewhere. Delete `session_data/jarvis_user.session` and restart to log in fresh.
+* Missing Imports: Ensure you have selected the correct Python Interpreter in VS Code (Ctrl+Shift+P -> Select Interpreter -> venv).
+* UI Lag: If you have 100k+ logs, click "Clear View" to keep the browser responsive.
+
+---
+
+📜 LICENSE
+
+Distributed under the MIT License. Created for local-first, privacy-focused message archiving.
