@@ -53,10 +53,8 @@ Step B: Dependency Installation
 
 Once the `(venv)` tag appears in your terminal, run:
 
-    ```
     pip install -r requirements.txt
-    ```
-
+    
 ---
 
 🔑 4. .ENV CUSTOMIZATION
