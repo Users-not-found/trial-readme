@@ -41,18 +41,20 @@ Open your terminal (PowerShell or CMD) in the project folder and run:
     ```python -m venv venv```
     
  2. Activate it:
-  * Windows:
+      * Windows:
     ```
     .\venv\Scripts\activate
     ```
-  * Mac/Linux:
+      * Mac/Linux:
     ```
     source venv/bin/activate
     ```
 Step B: Dependency Installation
 
 Once the `(venv)` tag appears in your terminal, run:
-  `pip install -r requirements.txt`
+    ```
+    pip install -r requirements.txt
+    ```
 
 ---
 
