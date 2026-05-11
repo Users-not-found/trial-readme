@@ -25,8 +25,8 @@ A high-performance, matte-black GitHub stats generator with a **Live Interactive
 ## 📦 Local Setup
 
 1.  **Clone the repo:**
-`git clone [https://github.com/AJ-016/github-stats-pro.git]https://github.com/AJ-016/github-stats-pro.git)`
- `cd stats-pro`
+* `git clone [https://github.com/AJ-016/github-stats-pro.git]https://github.com/AJ-016/github-stats-pro.git)`
+* `cd stats-pro`
 2. **Install dependencies**:
 * ```pip install -r requirements.txt```
 
