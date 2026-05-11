@@ -1,1 +1,1 @@
-![Stats](https://github-stats-pro-seven.vercel.app/api?username=AJ-016&bg=050505&title_clr=ffffff&text_clr=888888&border_clr=ff0000&font_size=14&font_family=Segoe+UI&show_age=true&show_repo=true&show_lang=true&show_commits=true)
+![Stats](https://github-stats-pro-seven.vercel.app/api?username=AJ-016&bg=050505&title_clr=ffffff&text_clr=9ab8fe&border_clr=2563eb&font_size=14&font_family=Segoe+UI&show_age=true&show_repo=true&show_lang=true&show_commits=true)
