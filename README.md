@@ -1,1 +1,1 @@
-![Stats](http://localhost:8001/api?username=AJ-016&bg=050505&title_clr=ffffff&text_clr=888888&border_clr=1a1a1a&font_size=14&font_family=Segoe+UI&show_age=true&show_repo=true&show_lang=true&show_commits=true)
+![Stats](https://github-stats-pro-seven.vercel.app/api?username=AJ-016&bg=050505&title_clr=ffffff&text_clr=888888&border_clr=1a1a1a&font_size=14&font_family=Segoe+UI&show_age=true&show_repo=true&show_lang=false&show_commits=true)
