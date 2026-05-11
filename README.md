@@ -31,11 +31,11 @@ A high-performance, matte-black GitHub stats generator with a **Live Interactive
 * ```pip install -r requirements.txt```
 
 3. **Environment Variables:**
-  * Create a `.env` file and add your GitHub token:
-   `GITHUB_TOKENS=your_token_here`
+  Create a `.env` file and add your GitHub token:
+ * `GITHUB_TOKENS=your_token_here`
 
 4. **Run the Studio**:
-`uvicorn api.index:app --reload --port 8001`
+* `uvicorn api.index:app --reload --port 8001`
 
 ## 🛡️ Privacy & Performance
 
