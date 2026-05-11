@@ -1,9 +1,11 @@
 # 📊 Stats Pro: The Ultimate Profile Architect
 
 A high-performance, matte-black GitHub stats generator with a **Live Interactive Design Studio**. Built with FastAPI and designed for developers who want pixel-perfect control over their profile's aesthetic.
+<hr style="border: none; border-top: .5px solid #444;">
 
 ## 🚀 Live Demo
 **[Build your card here →](https://github-stats-pro-seven.vercel.app/)**
+<hr style="border: none; border-top: .5px solid #444;">
 
 
 ## ✨ Features
@@ -16,6 +18,7 @@ A high-performance, matte-black GitHub stats generator with a **Live Interactive
 *   **📏 Precision Layout:** Dynamic SVG scaling with adjustable **Font Size** and **Border Radius**.
 *   **🎯 Reset & Quick-Start:** One-click reset to a professional "Identity-only" view.
 
+<hr style="border: none; border-top: .5px solid #444;">
 
 ## 🛠️ Technical Stack
 
@@ -23,6 +26,8 @@ A high-performance, matte-black GitHub stats generator with a **Live Interactive
 *   **Frontend:** Tailwind CSS & Vanilla JS
 *   **Data:** GitHub GraphQL API (v4)
 *   **Architecture:** Zero-dependency SVG rendering for maximum speed.
+
+<hr style="border: none; border-top: .5px solid #444;">
 
 
 ## 📦 Local Setup
@@ -40,12 +45,16 @@ A high-performance, matte-black GitHub stats generator with a **Live Interactive
 4. **Run the Studio**:
 `uvicorn api.index:app --reload --port 8001`
 
+<hr style="border: none; border-top: .5px solid #444;">
+
 ## 🛡️ Privacy & Performance
 
 This project is built with a **local-first** philosophy. 
 - **No Tracking:** We don't log your GitHub data.
 - **Secure:** Your GitHub tokens are never exposed to the frontend.
 - **Efficient:** Optimized for low VRAM usage and high concurrency.
+
+<hr style="border: none; border-top: .5px solid #444;">
 
 
 ## 📜 License
