@@ -81,6 +81,8 @@ Set the method, URL, and polling interval (in minutes).
 
 Click Save to start live monitoring. Use the Pause/Resume buttons to control the tracker.
 
+<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
+
 ## Final Folder Structure
 ```
 nova-monitor/
