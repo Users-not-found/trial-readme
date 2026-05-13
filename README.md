@@ -1,89 +1,68 @@
 # Nova Monitor 🚀
 
-A 100% local-first API monitoring workspace and uptime tracker. Build, save, and continuously monitor your API endpoints without relying on cloud services.
+A powerful, 100% local-first API development workspace and uptime tracker. Build, test, and continuously monitor your API endpoints with a pro-grade suite of tools—all without ever leaving your machine or relying on cloud services.
 
-<hr style="height: 0.5px; opacity: 0.2;">
+---
 
 ## ✨ Features
-* **Local-First:** All requests and logs are stored locally using SQLite.
-* **Continuous Monitoring:** Set custom intervals (e.g., every 1 min) to ping APIs automatically in the background.
-* **Live Dashboard:** Real-time latency charts and uptime status.
-* **Workspace Engine:** Full support for GET/POST requests.
-* **Dark Aesthetic:** Sleek, charcoal dark-mode UI built with Tailwind CSS.
+* **Full API Workspace:** Send GET, POST, PUT, PATCH, and DELETE requests with ease.
+* **Advanced Request Tooling:** Comprehensive support for custom Headers, Query Params, and JSON/Raw Body payloads.
+* **Built-in Authentication:** Native support for Basic Auth and Bearer Tokens.
+* **Continuous Monitoring:** Set custom polling intervals (e.g., every 1 min) to track uptime and performance in the background.
+* **Local Persistence:** All requests, logs, scripts, and settings are stored locally in a private SQLite database.
+* **Dark Aesthetic:** High-contrast, charcoal-themed UI built for professional minimalist workflows.
 
-<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
+---
 
 ## 💻 Tech Stack
-* **Backend:** Python, FastAPI, SQLAlchemy, APScheduler
+* **Backend:** Python 3.10+, FastAPI, SQLAlchemy, APScheduler
 * **Frontend:** React, Vite, Tailwind CSS v3, Recharts
-* **Database:** SQLite
+* **Database:** SQLite (Zero-configuration)
 
-<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
+---
 
 ## 🛠️ Installation & Setup
-
-### Prerequisites
-* Python 3.8+
-* Node.js (v18+)
-
 ### 1. Backend Setup (FastAPI)
-Open a terminal and navigate to the `backend` directory.
+
 ```
 # Navigate to the backend folder
 cd backend
 
-# Create a virtual environment
+# Create and activate virtual environment
 python -m venv venv
-
-# Activate the virtual environment
-# On Windows:
-.\venv\Scripts\activate
-# On Mac/Linux:
-# source venv/bin/activate
+# Windows: .\venv\Scripts\activate | Mac/Linux: source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Start the server
+# Start the engine
 uvicorn main:app --reload --port 8001
-
 ```
-
-The API will be available at *http://127.0.0.1:8001*<br>
-Interactive API Docs: *http://127.0.0.1:8001/docs*
-
-### 2. Frontend Setup (React + Vite)
-Open a new terminal and navigate to the frontend directory.
+### 2. Frontend Setup (React)
 ```
 # Navigate to the frontend folder
 cd frontend
 
-# Install Node modules
+# Install modules
 npm install
-npm install -D tailwindcss@3 postcss autoprefixer
-npm install axios lucide-react recharts date-fns
 
-# Start the development server
+# Start the dev server
 npm run dev
 ```
-The Dashboard will be available at *http://localhost:5173*
-
-<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
+---
 
 ## 🚀 Usage
-Ensure both the Backend and Frontend servers are running simultaneously.
+1. **Launch:** Access the dashboard at http://localhost:5173.
 
-Open your browser and go to *http://localhost:5173*
+2. **Compose:** Click New Request. Define your URL, Method, and any required Auth or Headers.
 
-Click New Request to add an API endpoint.
+3. **Test:** Use the Body tab for JSON payloads and hit Send to see real-time response logs.
 
-Set the method, URL, and polling interval (in minutes).
+4. **Monitor:** Save the request and set a polling interval. The dashboard will automatically begin tracking latency and uptime.
 
-Click Save to start live monitoring. Use the Pause/Resume buttons to control the tracker.
-
-<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
-
-## Final Folder Structure
+5. **Analyze:** View the live charts to identify performance bottlenecks or downtime trends.
+---
+## 📂 Project Structure
 ```
 nova-monitor/
 ├── README.md                  # Setup and usage instructions for Nova Monitor
@@ -101,9 +80,7 @@ nova-monitor/
 │   └── schemas.py             # Pydantic validation models
 │
 └── frontend/                  # React + Vite Dashboard
-    ├── node_modules/          # ⚙️ React dependencies
-    ├── public/
-    │   └── vite.svg               
+    ├── node_modules/          # ⚙️ React dependencies            
     ├── src/
     │   ├── App.jsx            # Core dashboard UI and logic
     │   ├── index.css          # Tailwind base and custom scrollbars
