@@ -49,7 +49,7 @@ uvicorn main:app --reload --port 8001
 
 ```
 
-The API will be available at *http://127.0.0.1:8001*
+The API will be available at *http://127.0.0.1:8001*<br>
 Interactive API Docs: *http://127.0.0.1:8001/docs*
 
 ### 2. Frontend Setup (React + Vite)
