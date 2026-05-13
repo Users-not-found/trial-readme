@@ -32,7 +32,7 @@ cd backend
 python -m venv venv
 # Windows: 
 .\venv\Scripts\activate
-#Mac/Linux: 
+# Mac/Linux: 
 # source venv/bin/activate
 
 # Install dependencies
