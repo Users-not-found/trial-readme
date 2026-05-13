@@ -1,50 +1,116 @@
-# 📊 Stats Pro: The Ultimate Profile Architect
+# Nova Monitor 🚀
 
-A high-performance, matte-black GitHub stats generator with a **Live Interactive Design Studio**. Built with FastAPI and designed for developers who want pixel-perfect control over their profile's aesthetic.
+A 100% local-first API monitoring workspace and uptime tracker. Build, save, and continuously monitor your API endpoints without relying on cloud services.
 
-## 🚀 Live Demo
-**[Build your card here →](https://github-stats-pro-seven.vercel.app/)**
+<hr style="height: 0.5px; opacity: 0.2;">
 
 ## ✨ Features
+* **Local-First:** All requests and logs are stored locally using SQLite.
+* **Continuous Monitoring:** Set custom intervals (e.g., every 1 min) to ping APIs automatically in the background.
+* **Live Dashboard:** Real-time latency charts and uptime status.
+* **Workspace Engine:** Full support for GET/POST requests.
+* **Dark Aesthetic:** Sleek, charcoal dark-mode UI built with Tailwind CSS.
 
-*   **🎨 Triple-Color Engine:** Independent color pickers for **Username**, **Value Text**, and **Muted Labels**.
-*   **⚡ Live Interactive Studio:** Real-time SVG preview with a built-in "Copy Link" tool.
-*   **⚙️ 10+ Toggleable Stats:** Choose what to show:
-    *   *Identity:* Account Age, Top Project, Tech Stack.
-    *   *Activity:* Commits, Total Stars, PRs, Issues Closed, PR Reviews, Fork Count.
-*   **📏 Precision Layout:** Dynamic SVG scaling with adjustable **Font Size** and **Border Radius**.
-*   **🎯 Reset & Quick-Start:** One-click reset to a professional "Identity-only" view.
+<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
 
-## 🛠️ Technical Stack
+## 💻 Tech Stack
+* **Backend:** Python, FastAPI, SQLAlchemy, APScheduler
+* **Frontend:** React, Vite, Tailwind CSS v3, Recharts
+* **Database:** SQLite
 
-*   **Backend:** FastAPI (Python)
-*   **Frontend:** Tailwind CSS & Vanilla JS
-*   **Data:** GitHub GraphQL API (v4)
-*   **Architecture:** Zero-dependency SVG rendering for maximum speed.
+<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
 
-## 📦 Local Setup
+## 🛠️ Installation & Setup
 
-1.  **Clone the repo:**
-* `git clone [https://github.com/AJ-016/github-stats-pro.git]https://github.com/AJ-016/github-stats-pro.git)`
-* `cd stats-pro`
-2. **Install dependencies**:
-* ```pip install -r requirements.txt```
+### Prerequisites
+* Python 3.8+
+* Node.js (v18+)
 
-3. **Environment Variables:**
-  Create a `.env` file and add your GitHub token:
- * `GITHUB_TOKENS=your_token_here`
+### 1. Backend Setup (FastAPI)
+Open a terminal and navigate to the `backend` directory.
+```
+# Navigate to the backend folder
+cd backend
 
-4. **Run the Studio**:
-* `uvicorn api.index:app --reload --port 8001`
+# Create a virtual environment
+python -m venv venv
 
-## 🛡️ Privacy & Performance
+# Activate the virtual environment
+# On Windows:
+.\venv\Scripts\activate
+# On Mac/Linux:
+# source venv/bin/activate
 
-This project is built with a **local-first** philosophy. 
-- **No Tracking:** We don't log your GitHub data.
-- **Secure:** Your GitHub tokens are never exposed to the frontend.
-- **Efficient:** Optimized for low VRAM usage and high concurrency.
+# Install dependencies
+pip install -r requirements.txt
 
-## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+# Start the server
+uvicorn main:app --reload --port 8001
 
-*Built with* ♥️ *by [Alwin K J](https://github.com/AJ-016)*
+```
+
+The API will be available at *http://127.0.0.1:8001*
+Interactive API Docs: *http://127.0.0.1:8001/docs*
+
+### 2. Frontend Setup (React + Vite)
+Open a new terminal and navigate to the frontend directory.
+```
+# Navigate to the frontend folder
+cd frontend
+
+# Install Node modules
+npm install
+npm install -D tailwindcss@3 postcss autoprefixer
+npm install axios lucide-react recharts date-fns
+
+# Start the development server
+npm run dev
+```
+The Dashboard will be available at *http://localhost:5173*
+
+<hr style="height: 1px; opacity: 0.15; width: 90%; margin: auto;">
+
+## 🚀 Usage
+Ensure both the Backend and Frontend servers are running simultaneously.
+
+Open your browser and go to *http://localhost:5173*
+
+Click New Request to add an API endpoint.
+
+Set the method, URL, and polling interval (in minutes).
+
+Click Save to start live monitoring. Use the Pause/Resume buttons to control the tracker.
+
+## Final Folder Structure
+```
+nova-monitor/
+├── README.md                      
+│
+├── backend/
+│   ├── venv/                      # (Auto-generated Python environment)
+│   ├── routers/
+│   │   ├── monitor.py             
+│   │   └── workspace.py           
+│   ├── api_monitor.db             # (Auto-generated SQLite database)
+│   ├── database.py                
+│   ├── main.py                    
+│   ├── models.py                  
+│   ├── requirements.txt           
+│   └── schemas.py                 
+│
+└── frontend/
+    ├── node_modules/              # (Auto-generated React dependencies)
+    ├── public/
+    │   └── vite.svg               
+    ├── src/
+    │   ├── App.jsx                
+    │   ├── index.css              
+    │   └── main.jsx               
+    ├── index.html                 
+    ├── package-lock.json          
+    ├── package.json               
+    ├── postcss.config.js          
+    ├── tailwind.config.js         
+    └── vite.config.js
+
+```
