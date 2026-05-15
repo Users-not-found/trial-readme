@@ -6,7 +6,6 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
 
----
 
 ## ✨ Key Features
 
@@ -17,13 +16,11 @@
 * **Fast Editing:** Inline content editing for project names and descriptions without leaving the table.
 * **One-Click Export:** Download your customized layout as a perfectly formatted `.md` table.
 
---- 
 ## 📸 UI Preview
 * **Theme:** Dark Charcoal / GitHub Dark Mode.
 * **Aesthetic:** Glassmorphism with neon accents and high-contrast badge tags.
 * **Responsiveness:** Fully optimized for desktop and mobile.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -32,7 +29,6 @@
 - **Icons:** FontAwesome 6.4
 - **API:** GitHub REST API
 
----
 
 ## 🚀 Getting Started
 
@@ -52,7 +48,6 @@ python app.py
 
 Open your browser and navigate to: http://127.0.0.1:8005
 
----
 
 ## 📂 Project Structure
 ```
