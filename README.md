@@ -40,7 +40,7 @@
 Clone the repository and install the required dependencies:
 
 ```
-git clone [https://github.com/AJ-016/Repo-Ranker.git](https://github.com/AJ-016/Repo-Ranker.git)
+git clone https://github.com/AJ-016/Repo-Ranker.git
 cd Repo-Ranker
 pip install -r requirements.txt
 ```
