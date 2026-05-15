@@ -1,98 +1,72 @@
-# Nova Monitor 🚀
+# 🚀 Repo Ranker (v1.5.1)
 
-A powerful, 100% local-first API development workspace and uptime tracker. Build, test, and continuously monitor your API endpoints with a pro-grade suite of tools—all without ever leaving your machine or relying on cloud services.
+**Repo Ranker** is a local-first, high-performance web tool designed for developers to architect their GitHub profile READMEs. It streamlines the process of fetching, ranking, and styling your repository showcase with a sleek, GitHub-authentic aesthetic.
 
----
-
-## ✨ Features
-* **Full API Workspace:** Send GET, POST, PUT, PATCH, and DELETE requests with ease.
-* **Advanced Request Tooling:** Comprehensive support for custom Headers, Query Params, and JSON/Raw Body payloads.
-* **Built-in Authentication:** Native support for Basic Auth and Bearer Tokens.
-* **Continuous Monitoring:** Set custom polling intervals (e.g., every 1 min) to track uptime and performance in the background.
-* **Local Persistence:** All requests, logs, scripts, and settings are stored locally in a private SQLite database.
-* **Dark Aesthetic:** High-contrast, charcoal-themed UI built for professional minimalist workflows.
+![Version](https://img.shields.io/badge/version-1.5.1-58a6ff)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.8+-blue)
 
 ---
 
-## 💻 Tech Stack
-* **Backend:** Python 3.10+, FastAPI, SQLAlchemy, APScheduler
-* **Frontend:** React, Vite, Tailwind CSS v3, Recharts
-* **Database:** SQLite (Zero-configuration)
+## ✨ Key Features
+
+* **Smart Fetching:** Instantly pull all public, non-forked repositories for any GitHub username.
+* **Priority Tech Stack:** Automatic sorting of tech tags (UI/Frontend → UX/Backend → Others).
+* **Intuitive Ranking:** Reorder your projects using a robust Drag-and-Drop system or manual arrow controls.
+* **Sleek Previewer:** A live, side-scrollable "README.md Preview" that mimics GitHub's native UI (complete with badge-style tags).
+* **Fast Editing:** Inline content editing for project names and descriptions without leaving the table.
+* **One-Click Export:** Download your customized layout as a perfectly formatted `.md` table.
+
+--- 
+## 📸 UI Preview
+* **Theme:** Dark Charcoal / GitHub Dark Mode.
+* **Aesthetic:** Glassmorphism with neon accents and high-contrast badge tags.
+* **Responsiveness:** Fully optimized for desktop and mobile.
 
 ---
 
-## 🛠️ Installation & Setup
-### 1. Backend Setup (FastAPI)
+## 🛠️ Tech Stack
+
+- **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (Python)
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Icons:** FontAwesome 6.4
+- **API:** GitHub REST API
+
+---
+
+## 🚀 Getting Started
+
+### 1. Installation
+Clone the repository and install the required dependencies:
 
 ```
-# Navigate to the backend folder
-cd backend
-
-# Create and activate virtual environment
-python -m venv venv
-# Windows: 
-.\venv\Scripts\activate
-# Mac/Linux: 
-# source venv/bin/activate
-
-# Install dependencies
+git clone [https://github.com/AJ-016/Repo-Ranker.git](https://github.com/AJ-016/Repo-Ranker.git)
+cd Repo-Ranker
 pip install -r requirements.txt
-
-# Start the engine
-uvicorn main:app --reload --port 8001
 ```
-### 2. Frontend Setup (React)
+### 2. Usage
+Run the FastAPI server:
 ```
-# Navigate to the frontend folder
-cd frontend
-
-# Install modules
-npm install
-
-# Start the dev server
-npm run dev
+python app.py
 ```
+
+Open your browser and navigate to: http://127.0.0.1:8005
+
 ---
 
-## 🚀 Usage
-1. **Launch:** Access the dashboard at http://localhost:5173.
-
-2. **Compose:** Click New Request. Define your URL, Method, and any required Auth or Headers.
-
-3. **Test:** Use the Body tab for JSON payloads and hit Send to see real-time response logs.
-
-4. **Monitor:** Save the request and set a polling interval. The dashboard will automatically begin tracking latency and uptime.
-
-5. **Analyze:** View the live charts to identify performance bottlenecks or downtime trends.
----
 ## 📂 Project Structure
 ```
-nova-monitor/
-├── README.md                  # Setup and usage instructions for Nova Monitor
-│
-├── backend/                   # FastAPI Engine
-│   ├── venv/                  # ⚙️ Python virtual environment
-│   ├── routers/
-│   │   ├── monitor.py         # Uptime logging endpoints
-│   │   └── workspace.py       # API request workspace endpoints
-│   ├── api_monitor.db         # ⚙️ SQLite database file
-│   ├── database.py            # Database connection setup
-│   ├── main.py                # App entry point & background APScheduler
-│   ├── models.py              # SQLAlchemy database schema
-│   ├── requirements.txt       # Python dependencies
-│   └── schemas.py             # Pydantic validation models
-│
-└── frontend/                  # React + Vite Dashboard
-    ├── node_modules/          # ⚙️ React dependencies            
-    ├── src/
-    │   ├── App.jsx            # Core dashboard UI and logic
-    │   ├── index.css          # Tailwind base and custom scrollbars
-    │   └── main.jsx           # React DOM entry point
-    ├── index.html             # Main HTML template
-    ├── package-lock.json      # ⚙️ Dependency tree lock
-    ├── package.json           # Node scripts (npm run dev)
-    ├── postcss.config.js      # PostCSS configuration
-    ├── tailwind.config.js     # Tailwind theme & color settings
-    └── vite.config.js         # Vite bundler configuration
+Repo-Ranker/
+├── app.py              # FastAPI Backend logic
+├── requirements.txt    # Project dependencies
+├── .gitignore          # Files to ignore in Git
+├── README.md           # Documentation
+└── static/             # Frontend assets
+    ├── index.html      # Main UI structure
+    ├── style.css       # Custom Glassmorphism styles
+    └── script.js       # App logic and Drag-and-Drop
 ```
-*(Folders marked with ⚙️ are auto-generated by Python and Node.js during setup and shouldn't be touched manually).*
+## 🤝 Contributing
+Feel free to fork this project, open issues, or submit pull requests to improve the UI or add new export formats!
+
+Developed with ☕ by AJ-016
